@@ -65,3 +65,9 @@ String.prototype.trueLength = function(){
 anotherUsername.trueLength()
 "hitesh".trueLength()
 "iceTea".trueLength()
+
+// // 
+// prototype->
+// array->object->null
+// string->object->null
+// all properties of array and string bcz it inherit from object

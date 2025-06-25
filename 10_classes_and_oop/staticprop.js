@@ -24,3 +24,6 @@ class Teacher extends User {
 
 const iphone = new Teacher("iphone", "i@phone.com")
 console.log(iphone.createId());
+//
+
+//static-> it prevent the access the function of the class who instance of that class and their subclass

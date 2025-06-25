@@ -68,3 +68,14 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200, 400, 500, 1000]));
+
+
+//function is also behave as object
+
+function myfun(num){
+
+return num*2;}
+
+myfun.power=2;  // it behave as object 
+console.log(myfun.power) //2
+
