@@ -3,6 +3,10 @@ let score = "hitesh"
 //console.log(typeof score);
 //console.log(typeof(score));
 
+
+//type conversion from string to number
+//all data type start with capital letter like Number, String
+
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
@@ -12,11 +16,43 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 
+//if score="22abc"
+//then let valueinnumber=Number(score)
+//console.log(typeof valueinnumber) //number
+//console.log(valueinnumber) //NaN
+//NaN->  
+
+//if score=null
+//then let valueinnumber=Number(score)
+//console.log(typeof valueinnumber) //number
+//console.log(valueinnumber) //0
+
+//if score=undefined
+//then let valueinnumber=Number(score)
+//console.log(typeof valueinnumber) //number
+//console.log(valueinnumber) //NaN
+
+//if score=true
+//then let valueinnumber=Number(score)
+//console.log(typeof valueinnumber) //number
+//console.log(valueinnumber) //1
+
+
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
+
+
+//Conversion of all data type into number and become 
+// "33"=>33
+// "33abc"=>NaN
+// true=>1
+// null=>0
+// undefined=>NaN
+
+//conversion of all data type into Boolean and become
 // 1 => true; 0 => false
 // "" => false
 // "hitesh" => true
@@ -41,15 +77,17 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " garun"
 
 let str3 = str1 + str2
 // console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2);   //12
+// console.log(1 + "2");   //12
+// console.log("1" + 2 + 2);    122
+// console.log(1 + 2 + "2");   32
+// console.log(+true)     //1
+// console.log(+"")      //0
 
 // console.log( (3 + 4) * 5 % 3);
 
