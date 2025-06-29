@@ -4,12 +4,17 @@ const score = 400
 const balance = new Number(100)
 // console.log(balance);
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(1));   //toFixed(1) formats the number with 1 digit after the decimal.
+console.log(balance.toString().length);
+console.log(balance.toFixed(1));   //toFixed(1) formats the number with 1 digit after the decimal.
+//Formats a number with a fixed number of digits after the decimal point.
+
+
+//
 
 const otherNumber = 123.8966
 
 // console.log(otherNumber.toPrecision(4));    //123.8  //toPrecision(4) formats the number to 4 significant digits, not just digits after the decimal.
+// formats a number to a specified number of significant digits (total digits, not just after decimal).
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString('en-IN'));
