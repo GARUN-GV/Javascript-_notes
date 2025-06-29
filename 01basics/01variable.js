@@ -30,5 +30,18 @@ it cannot be redeclared or updated,Must be initialized when declared, Preferred 
  */
 
 
-  /*Hoisting in js-> 
+  /*Hoisting in js->   Hoisting in JavaScript is a behavior where declarations of variables, functions, and classes are conceptually moved to the top of their containing scope during the compilation phase, 
+  before the code is executed. This allows these elements to be accessed before their actual declaration in the code. 
+
+  console.log(a);  // undefined
+  var a = 5;
+                                           behind the scene
+                                           var a;
+                                           console.log(a);  // undefined
+                                            a = 5;
+                                            
+var is hoisted and initialized to undefined.
+let and const are hoisted but not initialized → ReferenceError before declaration (TDZ).
+Function declarations are hoisted with definitions.
+Function expressions and classes are not hoisted in a usable way.
    */
