@@ -10,7 +10,7 @@ console.log(3
     +
      3) // code readability should be high
 
-console.log("Hitesh")
+console.log("garun varshney")
 
 
 let name = "garun"
@@ -22,12 +22,12 @@ let state;
 // bigint
 // string => ""
 // boolean => true/false
-//null=> standalone value in this we define it is a empty or contain a null value.
-//undefined=> in this we didn,t define the value of variable
+// null => standalone value in this we define it is a empty or contain a null value.
+// undefined => in this we didn,t define the value of variable
 // symbol => unique
 
 
-// object
+// object =>An object in JavaScript is a non-primitive data type that allows you to group multiple values (properties and methods) into a single container in the form of key value pair.Stored by	Reference
 console.log(typeof "garun")
 console.log(typeof age)
 console.log(typeof undefined); // undefined
