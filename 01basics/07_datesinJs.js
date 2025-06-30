@@ -14,6 +14,12 @@ let myCreatedDate = new Date("01-14-2023")
 
 let myTimeStamp = Date.now()
 
+//Date.now() is a JavaScript method that returns the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC (also known as the Unix Epoch).
+/* This is useful when you need a timestamp, for example:
+        Comparing dates
+        Measuring execution time
+        Setting expiration times (like in cookies or sessions)*/
+
 // console.log(myTimeStamp);
 // console.log(myCreatedDate.getTime());
 // console.log(Math.floor(Date.now()/1000));
