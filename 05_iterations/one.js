@@ -29,6 +29,10 @@ for (let index = 0; index < myArray.length; index++) {
 
 
 // break and continue
+/*The break statement "jumps out" of a loop. The continue statement "jumps over" one iteration in the loop.
+ break immediately terminates a loop when a condition is met, while continue skip  the iteration of the loop
+ 
+*/
 
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {
