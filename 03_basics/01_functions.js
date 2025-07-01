@@ -1,17 +1,17 @@
 
-function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
-}
 
+//function-> A function is a block of reusable code designed to perform a particular task. You can call it whenever you need that task done.
+function sayMyName(){
+    console.log("G");
+    console.log("A");
+    console.log("R");
+    console.log("U");
+    console.log("N");
+   
+}
 // sayMyName()
 
 // function addTwoNumbers(number1, number2){
-
 //     console.log(number1 + number2);
 // }
 
@@ -27,7 +27,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
+function loginUserMessage(username = "sam"){ //default argument
     if(!username){
         console.log("PLease enter a username");
         return
@@ -40,7 +40,7 @@ function loginUserMessage(username = "sam"){
 
 
 function calculateCartPrice(val1, val2, ...num1){
-    return num1
+    return num1 //[500, 2000]
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
@@ -55,6 +55,8 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
+
+
 handleObject({
     username: "sam",
     price: 399
