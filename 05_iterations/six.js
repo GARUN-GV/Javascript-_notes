@@ -4,7 +4,10 @@
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
 //     return item
-// } )
+// } ) 
+
+
+//foreach function doesnt return any value
 
 // console.log(values);
 
@@ -23,6 +26,12 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // } )
 
 // console.log(newNums);
+
+
+/*
+the filter method is a built in array method used to create a new aaray ciontaining only the element from the original array that satisfy a specified condition. 
+it doesnot modify the original array
+*/
 
 
 const books = [
