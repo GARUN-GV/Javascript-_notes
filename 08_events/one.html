@@ -55,9 +55,29 @@
             removeIt.remove()
         }
     
+
         
     })
-    
+
+
+    /*
+    The false is the third argument to addEventListener() and it controls the event propagation phase.
+                JavaScript Event Propagation Phases:
+                        Capturing Phase (top → target)
+                        Target Phase
+                        Bubbling Phase (target → top)
+
+ 
+ Capturing Phase (a.k.a. Capture or Trickling Phase) =>true
+     The event travels from the top of the DOM (document) down to the target element.
+
+ Bubbling Phase (default) =>false
+    After reaching the target element, the event bubbles up through its parent elements back to the root.
+
+
+
+
+    */
     //removeIt.parentNode.removeChild(removeIt)
 </script>
 </html>
