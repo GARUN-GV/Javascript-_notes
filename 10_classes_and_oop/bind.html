@@ -1,3 +1,9 @@
+<!--
+this is dynamic — its value depends on how a function is called, not where it was written.
+
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +32,19 @@
         }
     }
 
+    /*
+    this.handleClick runs as an event handler
+    So this becomes the button, not the class instance
+    this.server is undefined, because the button has no server property
+
+
+    this is dynamic — its value depends on how a function is called, not where it was written.
+    In DOM event listeners, when a function is called through addEventListener, JavaScript automatically sets this to the DOM element that received the event.
+    
+    Creates a new function where this is permanently locked to the React class
+    So even if the browser calls it, this stays correct
+    */
+
     const app = new React()
 </script>
 </html>
@@ -36,6 +55,7 @@
 JavaScript Function bind()
 Function Borrowing
 With the bind() method, an object can borrow a method from another object.
+.bind() is used to "lock" or "preserve" the value of this in a function.
 
 The example below creates 2 objects (person and member).
 
